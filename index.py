@@ -11,6 +11,8 @@ for i in range(len(dados)):
         x.append(int(linha[0]))
         y.append(int(linha[1]))
 
+print(dados)
+
 plt.plot(x, y, color='blue')
 plt.bar(x, y, color='red')
 plt.xlabel("Anos")
