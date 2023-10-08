@@ -15,5 +15,4 @@ plt.plot(x, y, color='blue')
 plt.bar(x, y, color='red')
 plt.xlabel("Anos")
 plt.ylabel("Crescimento da população")
-
 plt.show()
